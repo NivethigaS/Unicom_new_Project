@@ -7,23 +7,63 @@
       "RelativeMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|solutionrelative:unicomtic ms\\views\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|c:\\users\\user\\desktop\\nive\\unicom_new_project\\unicomtic ms\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|solutionrelative:unicomtic ms\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|c:\\users\\user\\desktop\\nive\\unicom_new_project\\unicomtic ms\\views\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\unicomtic ms\\views\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|solutionrelative:unicomtic ms\\views\\dashboardform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|c:\\users\\user\\desktop\\nive\\unicom_new_project\\unicomtic ms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\unicomtic ms\\views\\addtimetableform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|solutionrelative:unicomtic ms\\views\\addtimetableform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\unicomtic ms\\views\\addsubjectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|solutionrelative:unicomtic ms\\views\\addsubjectform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\unicomtic ms\\views\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|solutionrelative:unicomtic ms\\views\\addstudentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\unicomtic ms\\views\\addstaffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|solutionrelative:unicomtic ms\\views\\addstaffform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\unicomtic ms\\views\\addroomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|solutionrelative:unicomtic ms\\views\\addroomform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\unicomtic ms\\views\\addmarkform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|solutionrelative:unicomtic ms\\views\\addmarkform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\unicomtic ms\\views\\addlecturerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|solutionrelative:unicomtic ms\\views\\addlecturerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\unicomtic ms\\views\\addexamform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|solutionrelative:unicomtic ms\\views\\addexamform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\unicomtic ms\\views\\addcourseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|solutionrelative:unicomtic ms\\views\\addcourseform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\unicomtic ms\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|solutionrelative:unicomtic ms\\controllers\\coursecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\unicomtic ms\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|solutionrelative:unicomtic ms\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\unicomtic ms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|solutionrelative:unicomtic ms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|c:\\users\\user\\desktop\\nive\\unicom_new_project\\unicomtic ms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\unicomtic ms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|solutionrelative:unicomtic ms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|c:\\users\\user\\desktop\\nive\\unicom_new_project\\unicomtic ms\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\unicomtic ms\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{830EF7A7-C62E-4072-BB82-84F4F6D326E6}|UnicomTIC MS\\UnicomTIC MS.csproj|solutionrelative:unicomtic ms\\models\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,7 +74,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,7 +86,118 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "AddTimetableform.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Views\\AddTimetableform.cs",
+              "RelativeDocumentMoniker": "UnicomTIC MS\\Views\\AddTimetableform.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Views\\AddTimetableform.cs [Design]",
+              "RelativeToolTip": "UnicomTIC MS\\Views\\AddTimetableform.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T02:02:00.033Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddSubjectForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Views\\AddSubjectForm.cs",
+              "RelativeDocumentMoniker": "UnicomTIC MS\\Views\\AddSubjectForm.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Views\\AddSubjectForm.cs [Design]",
+              "RelativeToolTip": "UnicomTIC MS\\Views\\AddSubjectForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T02:01:56.058Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AddStudentForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Views\\AddStudentForm.cs",
+              "RelativeDocumentMoniker": "UnicomTIC MS\\Views\\AddStudentForm.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Views\\AddStudentForm.cs [Design]",
+              "RelativeToolTip": "UnicomTIC MS\\Views\\AddStudentForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T02:01:53.751Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AddStaffForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Views\\AddStaffForm.cs",
+              "RelativeDocumentMoniker": "UnicomTIC MS\\Views\\AddStaffForm.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Views\\AddStaffForm.cs [Design]",
+              "RelativeToolTip": "UnicomTIC MS\\Views\\AddStaffForm.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T02:01:51.739Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AddRoomform.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Views\\AddRoomform.cs",
+              "RelativeDocumentMoniker": "UnicomTIC MS\\Views\\AddRoomform.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Views\\AddRoomform.cs [Design]",
+              "RelativeToolTip": "UnicomTIC MS\\Views\\AddRoomform.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T02:01:49.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AddMarkform.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Views\\AddMarkform.cs",
+              "RelativeDocumentMoniker": "UnicomTIC MS\\Views\\AddMarkform.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Views\\AddMarkform.cs [Design]",
+              "RelativeToolTip": "UnicomTIC MS\\Views\\AddMarkform.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T02:01:46.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Addlecturerform.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Views\\Addlecturerform.cs",
+              "RelativeDocumentMoniker": "UnicomTIC MS\\Views\\Addlecturerform.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Views\\Addlecturerform.cs [Design]",
+              "RelativeToolTip": "UnicomTIC MS\\Views\\Addlecturerform.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T02:01:43.318Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AddExamform.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Views\\AddExamform.cs",
+              "RelativeDocumentMoniker": "UnicomTIC MS\\Views\\AddExamform.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Views\\AddExamform.cs [Design]",
+              "RelativeToolTip": "UnicomTIC MS\\Views\\AddExamform.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T02:01:40.303Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AddCourseform.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Views\\AddCourseform.cs",
+              "RelativeDocumentMoniker": "UnicomTIC MS\\Views\\AddCourseform.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Views\\AddCourseform.cs [Design]",
+              "RelativeToolTip": "UnicomTIC MS\\Views\\AddCourseform.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T02:01:37.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CourseController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Controllers\\CourseController.cs",
+              "RelativeDocumentMoniker": "UnicomTIC MS\\Controllers\\CourseController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Controllers\\CourseController.cs",
+              "RelativeToolTip": "UnicomTIC MS\\Controllers\\CourseController.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-27T02:01:17.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "UnicomTIC MS\\Controllers\\UserController.cs",
@@ -54,8 +205,7 @@
               "RelativeToolTip": "UnicomTIC MS\\Controllers\\UserController.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAABMAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T00:52:21.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T00:52:21.071Z"
             },
             {
               "$type": "Document",
@@ -65,26 +215,25 @@
               "RelativeDocumentMoniker": "UnicomTIC MS\\Views\\Dashboardform.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Views\\Dashboardform.cs",
               "RelativeToolTip": "UnicomTIC MS\\Views\\Dashboardform.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAAIQAAAAzAAAAAAAAAA==",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAUwIQAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-27T00:37:14.366Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Dashboardform.cs [Design]",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Views\\Dashboardform.cs",
               "RelativeDocumentMoniker": "UnicomTIC MS\\Views\\Dashboardform.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Views\\Dashboardform.cs [Design]",
               "RelativeToolTip": "UnicomTIC MS\\Views\\Dashboardform.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T00:37:10.955Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-27T00:37:10.955Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 13,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Form1.cs",
               "RelativeDocumentMoniker": "UnicomTIC MS\\Form1.cs",
@@ -92,24 +241,22 @@
               "RelativeToolTip": "UnicomTIC MS\\Form1.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAAABkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T00:21:22.058Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T00:21:22.058Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Form1.cs",
               "RelativeDocumentMoniker": "UnicomTIC MS\\Form1.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Form1.cs [Design]",
               "RelativeToolTip": "UnicomTIC MS\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T00:21:20.037Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-06-27T00:21:20.037Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 15,
               "Title": "UserRole.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Nive\\Unicom_new_Project\\UnicomTIC MS\\Models\\UserRole.cs",
               "RelativeDocumentMoniker": "UnicomTIC MS\\Models\\UserRole.cs",
@@ -117,8 +264,7 @@
               "RelativeToolTip": "UnicomTIC MS\\Models\\UserRole.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-27T00:21:07.499Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-27T00:21:07.499Z"
             }
           ]
         }
