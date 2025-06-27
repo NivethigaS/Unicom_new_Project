@@ -17,7 +17,7 @@ namespace UnicomTIC_MS.Controllers
             List<Course> list = new List<Course>();
             using (var conn = SQLiteConfig.GetConnection())
             {
-                conn.Open();
+                
                 var cmd = new SQLiteCommand("SELECT * FROM course", conn);
                 var reader = cmd.ExecuteReader();
                 
@@ -40,7 +40,7 @@ namespace UnicomTIC_MS.Controllers
         {
             using (var conn = SQLiteConfig.GetConnection())
             {
-                conn.Open();
+                
                 var cmd = new SQLiteCommand("INSERT INTO course (course_name, duration) VALUES (@name, @duration)", conn);
                 
                     cmd.Parameters.AddWithValue("@name", course.CourseName);
@@ -54,7 +54,7 @@ namespace UnicomTIC_MS.Controllers
         {
             using (var conn = SQLiteConfig.GetConnection())
             {
-                conn.Open();
+                
                 var cmd = new SQLiteCommand("UPDATE course SET course_name = @name, duration = @duration WHERE course_id = @id", conn);
                 
                     cmd.Parameters.AddWithValue("@id", course.CourseId);
@@ -69,7 +69,7 @@ namespace UnicomTIC_MS.Controllers
         {
             using (var conn = SQLiteConfig.GetConnection())
             {
-                conn.Open();
+                
                 var cmd = new SQLiteCommand("DELETE FROM course WHERE course_id = @id", conn);
                 
                     cmd.Parameters.AddWithValue("@id", courseId);
@@ -82,7 +82,7 @@ namespace UnicomTIC_MS.Controllers
             DataTable datatable = new DataTable();
             using (var conn = SQLiteConfig.GetConnection()) 
             {
-                conn.Open();
+                
                 string query = @"
                     SELECT c.course_name AS'Course Name', c.duration AS 'Duration', s.subject_name AS 'Subject Name'
                     FROM course c

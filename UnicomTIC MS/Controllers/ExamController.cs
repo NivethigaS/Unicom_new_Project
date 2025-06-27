@@ -16,10 +16,10 @@ namespace UnicomTIC_MS.Controllers
                 List<dynamic> list = new List<dynamic>();
                 using (var conn = SQLiteConfig.GetConnection())
                 {
-                    conn.Open();
-                    string query = @"SELECT e.ExamId, e.ExamName, s.SubjectName, e.SubjectId
+                    
+                    string query = @"SELECT e.ExamId, e.ExamName, s.subject_name, e.SubjectId
                              FROM exam e
-                             JOIN subject s ON e.SubjectId = s.SubjectId";
+                             JOIN subject s ON e.SubjectId = s.subject_id";
 
                     var cmd = new SQLiteCommand(query, conn);
                     var reader = cmd.ExecuteReader();
@@ -31,7 +31,7 @@ namespace UnicomTIC_MS.Controllers
                             ExamId = Convert.ToInt32(reader["ExamId"]),
                             ExamName = reader["ExamName"].ToString(),
                             SubjectName = reader["SubjectName"].ToString(),
-                            SubjectId = Convert.ToInt32(reader["SubjectId"])
+                            SubjectId = Convert.ToInt32(reader["subject_id"])
                         });
                     }
                 }
@@ -42,7 +42,7 @@ namespace UnicomTIC_MS.Controllers
             {
                 using (var conn = SQLiteConfig.GetConnection())
                 {
-                    conn.Open();
+                    
                     var cmd = new SQLiteCommand("INSERT INTO exam (ExamName, SubjectId) VALUES (@name, @sid)", conn);
                     cmd.Parameters.AddWithValue("@name", exam.ExamName);
                     cmd.Parameters.AddWithValue("@sid", exam.SubjectID);
@@ -54,7 +54,7 @@ namespace UnicomTIC_MS.Controllers
             {
                 using (var conn = SQLiteConfig.GetConnection())
                 {
-                    conn.Open();
+                    
                     var cmd = new SQLiteCommand("UPDATE exam SET ExamName=@name, SubjectId=@sid WHERE ExamId=@id", conn);
                     cmd.Parameters.AddWithValue("@name", exam.ExamName);
                     cmd.Parameters.AddWithValue("@sid", exam.SubjectID);
@@ -67,7 +67,7 @@ namespace UnicomTIC_MS.Controllers
             {
                 using (var conn = SQLiteConfig.GetConnection())
                 {
-                    conn.Open();
+                    
                     var cmd = new SQLiteCommand("DELETE FROM exam WHERE ExamId=@id", conn);
                     cmd.Parameters.AddWithValue("@id", id);
                     cmd.ExecuteNonQuery();

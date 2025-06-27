@@ -88,3 +88,34 @@ Z:\C#\Nitha\Nive\UnicomTIC_managementSystem\UnicomTIC MS\bin\Debug\System.Data.S
 Z:\C#\Nitha\Nive\UnicomTIC_managementSystem\UnicomTIC MS\obj\Debug\UnicomTI.6D593183.Up2Date
 Z:\C#\Nitha\Nive\UnicomTIC_managementSystem\UnicomTIC MS\obj\Debug\UnicomTIC MS.exe
 Z:\C#\Nitha\Nive\UnicomTIC_managementSystem\UnicomTIC MS\obj\Debug\UnicomTIC MS.pdb
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\bin\Debug\UnicomTIC MS.exe.config
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\bin\Debug\UnicomTIC MS.exe
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\bin\Debug\UnicomTIC MS.pdb
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\bin\Debug\System.Data.SQLite.dll
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\bin\Debug\System.Data.SQLite.xml
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\obj\Debug\UnicomTIC MS.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\obj\Debug\UnicomTIC_MS.loginform.resources
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\obj\Debug\UnicomTIC_MS.Properties.Resources.resources
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\obj\Debug\UnicomTIC_MS.Views.AddCourseForm.resources
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\obj\Debug\UnicomTIC_MS.Views.AddExamform.resources
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\obj\Debug\UnicomTIC_MS.Views.Addlecturerform.resources
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\obj\Debug\UnicomTIC_MS.Views.AddMarkform.resources
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\obj\Debug\UnicomTIC_MS.Views.AddRoomform.resources
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\obj\Debug\UnicomTIC_MS.Views.AddstaffForm.resources
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\obj\Debug\UnicomTIC_MS.Views.addstudentform.resources
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\obj\Debug\UnicomTIC_MS.Views.AddSubjectform.resources
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\obj\Debug\UnicomTIC_MS.Views.AddTimetableform.resources
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\obj\Debug\UnicomTIC_MS.Views.Dashboardcontrol.CourseControl.resources
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\obj\Debug\UnicomTIC_MS.Views.Dashboardcontrol.ExamControl.resources
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\obj\Debug\UnicomTIC_MS.Views.Dashboardcontrol.MarkControl.resources
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\obj\Debug\UnicomTIC_MS.Views.Dashboardcontrol.RoomControl.resources
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\obj\Debug\UnicomTIC_MS.Views.Dashboardcontrol.StaffControl.resources
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\obj\Debug\UnicomTIC_MS.Views.Dashboardcontrol.StudentControl.resources
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\obj\Debug\UnicomTIC_MS.Views.Dashboardcontrol.TimetableControl.resources
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\obj\Debug\UnicomTIC_MS.Views.dashboardform.resources
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\obj\Debug\UnicomTIC_MS.Views.Dashboardform.LecturerControl.resources
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\obj\Debug\UnicomTIC MS.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\obj\Debug\UnicomTIC MS.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\obj\Debug\UnicomTI.6D593183.Up2Date
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\obj\Debug\UnicomTIC MS.exe
+C:\Users\User\Desktop\Nive\Unicom_new_Project\UnicomTIC MS\obj\Debug\UnicomTIC MS.pdb

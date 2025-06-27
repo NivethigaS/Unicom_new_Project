@@ -15,7 +15,7 @@ namespace UnicomTIC_MS.Controllers
         {
             using (var conn = SQLiteConfig.GetConnection()) 
             {
-                conn.Open();
+                
                 string query = "SELECT * FROM user WHERE username = @username AND password = @password";
                 SQLiteCommand cmd = new SQLiteCommand(query, conn);
 

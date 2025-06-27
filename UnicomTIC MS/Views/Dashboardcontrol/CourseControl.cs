@@ -26,7 +26,7 @@ namespace UnicomTIC_MS.Views.Dashboardcontrol
             using (var conn = SQLiteConfig.GetConnection()) 
             {
                 
-                string query = @"SELECT c.course_name, c.duration, s.subject_name
+                string query = @"SELECT c.course_name, c.duration, s.subject_name, c.course_id
                     FROM course c
                     LEFT JOIN subject s ON c.course_id = s.course_id";
 
@@ -47,8 +47,9 @@ namespace UnicomTIC_MS.Views.Dashboardcontrol
 
         private void button1_Click(object sender, EventArgs e)
         {
-            new AddSubjectform().ShowDialog();
-            LoadCourseSubjectTable();
+            AddCourseForm addCourseForm = new AddCourseForm();
+            addCourseForm.FormClosed += (s, args) => LoadCourseSubjectTable();
+            addCourseForm.ShowDialog();
 
         }
 
@@ -59,8 +60,14 @@ namespace UnicomTIC_MS.Views.Dashboardcontrol
 
         private void btnAddSubjects_Click(object sender, EventArgs e)
         {
-            new AddSubjectform().ShowDialog();
-            LoadCourseSubjectTable();
+            AddSubjectform addSubjectForm = new AddSubjectform();
+            addSubjectForm.FormClosed += (s, args) => LoadCourseSubjectTable();
+            addSubjectForm.ShowDialog();
+        }
+
+        private void AddSubjectForm_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            throw new NotImplementedException();
         }
 
         private void CourseControl_Load(object sender, EventArgs e)

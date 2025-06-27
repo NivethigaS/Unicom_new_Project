@@ -89,17 +89,23 @@ namespace UnicomTIC_MS.Views
             panelMain.Controls.Add(control);
         }
 
-        private void LoadLecturerControl(LecturerControl lecturerControl) 
-        {
-            panelMain.Controls.Clear();
-            lecturerControl = new LecturerControl();
-            lecturerControl.Dock = DockStyle.Fill;
-            panelMain.Controls.Add(lecturerControl);
-        }
+         
+
 
         private void btnlecturer_Click(object sender, EventArgs e)
         {
-            LoadLecturerControl(new LecturerControl());
+            if (Roles.Role == "Lecturer" || Roles.Role == "admin")
+            {
+                LoadControl(new LecturerControl());
+            }
+            else 
+            {
+                MessageBox.Show("Access Denied!");
+            }
+            LecturerControl lecturerControl = new LecturerControl();
+            lecturerControl.Dock = DockStyle.Fill;
+            panelMain.Controls.Clear();
+            panelMain.Controls.Add(lecturerControl);
         }
 
         private void LoadStudentControl(StudentControl studentControl) 
@@ -111,15 +117,24 @@ namespace UnicomTIC_MS.Views
 
         private void btnstudent_Click(object sender, EventArgs e)
         {
-            UserRole parsedRole = (UserRole)Enum.Parse(typeof(UserRole), Roles.Role);
-            if (parsedRole == UserRole.Lecturer || parsedRole == UserRole.Staff)
+            if (Roles.Role == "Student" || Roles.Role == "admin")
             {
-                MessageBox.Show("Access Denied.");
-                return;
+                LoadControl(new StudentControl());
             }
-                LoadStudentControl(new StudentControl());
+            else 
+            {
+                MessageBox.Show("Access Denied!");
+            }
 
-        }
+            panelMain.Controls.Clear();
+            StudentControl studentControl = new StudentControl();
+            studentControl.Dock = DockStyle.Fill;
+            panelMain.Controls.Clear();
+            panelMain.Controls.Add(studentControl);
+
+        
+            
+        }    
         private void LoadUserControl(UserControl uc)
         {
             panelMain.Controls.Clear();
@@ -148,7 +163,10 @@ namespace UnicomTIC_MS.Views
 
         private void btncourse_Click(object sender, EventArgs e)
         {
-            LoadControl(new CourseControl());
+            panelMain.Controls.Clear();
+            CourseControl courseControl = new CourseControl();
+            courseControl.Dock = DockStyle.Fill;
+            panelMain.Controls.Add(courseControl);
         }
 
         private void panelMain_Paint(object sender, PaintEventArgs e)
@@ -183,5 +201,21 @@ namespace UnicomTIC_MS.Views
             LoadControl(new RoomControl());
 
         }
+
+        private void btnX_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnlogout_Click(object sender, EventArgs e)
+        {
+            DialogResult dialogResult = MessageBox.Show("Are you sure you want to log out?", "Confirm Logout", MessageBoxButtons.YesNo);
+            this.Close();
+
+            loginform loginform = new loginform();
+            loginform.ShowDialog();
+        }
+
+
     }
 }

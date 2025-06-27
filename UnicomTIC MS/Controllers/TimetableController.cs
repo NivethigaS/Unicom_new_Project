@@ -16,7 +16,7 @@ namespace UnicomTIC_MS.Controllers
         {
             using (var conn = SQLiteConfig.GetConnection())
             {
-                conn.Open();
+                
                 string query = "INSERT INTO timetable (SubjectID, TimeSlot, RoomID) VALUES (@sid, @slot, @rid)";
 
                 using (var cmd = new SQLiteCommand(query, conn))
@@ -35,8 +35,8 @@ namespace UnicomTIC_MS.Controllers
 
             using (var conn = SQLiteConfig.GetConnection())
             {
-                conn.Open();
-                string query = @"SELECT t.TimetableID, t.TimeSlot, s.SubjectName, r.RoomName, r.RoomType
+                
+                string query = @"SELECT t.TimetableID, t.TimeSlot, s.subject_name, r.RoomName, r.RoomType
                         FROM timetable t 
                         JOIN subject s ON t.SubjectID = s.SubjectID
                         JOIN room r ON t.RoomID = r.RoomID";
@@ -63,7 +63,7 @@ namespace UnicomTIC_MS.Controllers
         {
             using (var conn = SQLiteConfig.GetConnection())
             {
-                conn.Open();
+                
                 string query = "UPDATE timetable SET SubjectID=@sid, TimeSlot=@slot, RoomID=@rid WHERE TimetableID=@id";
                 using (var cmd = new SQLiteCommand(query, conn))
                 {
@@ -79,7 +79,7 @@ namespace UnicomTIC_MS.Controllers
         {
             using (var conn = SQLiteConfig.GetConnection())
             {
-                conn.Open();
+                
                 string query = "DELETE FROM timetable WHERE TimetableID=@id";
                 using (var cmd = new SQLiteCommand(query, conn))
                 {

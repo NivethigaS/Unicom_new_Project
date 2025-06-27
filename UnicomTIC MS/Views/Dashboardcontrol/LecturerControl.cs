@@ -21,7 +21,8 @@ namespace UnicomTIC_MS.Views.Dashboardform
         }
         private void LoadLecturers() 
         {
-            dataGridViewlecturer.DataSource = LecturerController.GetAllLecturers();
+            DataTable datatable = LecturerController.GetAllLecturers();
+            dataGridViewlecturer.DataSource = datatable;
 
         }
         private void btnadd_Click(object sender, EventArgs e)
@@ -37,7 +38,7 @@ namespace UnicomTIC_MS.Views.Dashboardform
         {
             if (dataGridViewlecturer.SelectedRows.Count > 0)
             {
-                int userId = Convert.ToInt32(dataGridViewlecturer.SelectedRows[0].Cells["user_id"].Value);
+                int userId = Convert.ToInt32(dataGridViewlecturer.SelectedRows[0].Cells["id"].Value);
                 Addlecturerform addform = new Addlecturerform(userId);
                 if (addform.ShowDialog() == DialogResult.OK)
                 {
@@ -54,7 +55,7 @@ namespace UnicomTIC_MS.Views.Dashboardform
         {
             if (dataGridViewlecturer.SelectedRows.Count > 0) 
             {
-                int userId = Convert.ToInt32(dataGridViewlecturer.SelectedRows[0].Cells["user_id"].Value);
+                int userId = Convert.ToInt32(dataGridViewlecturer.SelectedRows[0].Cells["id"].Value);
                 var confirm = MessageBox.Show("Are you sure?", "Delete", MessageBoxButtons.YesNo);
                 if (confirm == DialogResult.Yes) 
                 {

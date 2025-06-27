@@ -16,12 +16,12 @@ namespace UnicomTIC_MS.Controllers
             List<dynamic> list = new List<dynamic>();
             using (var conn = SQLiteConfig.GetConnection())
             {
-                conn.Open();
+                
                 string query = @"SELECT m.MarkId, m.Score, 
-                                    s.FirstName || ' ' || s.LastName AS StudentName,
+                                    u.first_name || ' ' || u.last_name AS StudentName,
                                     e.ExamName, m.StudentId, m.ExamId
                              FROM mark m
-                             JOIN student s ON m.StudentId = s.StudentId
+                             JOIN students s ON m.StudentId = s.StudentId
                              JOIN exam e ON m.ExamId = e.ExamId";
 
                 var cmd = new SQLiteCommand(query, conn);
@@ -46,7 +46,7 @@ namespace UnicomTIC_MS.Controllers
         {
             using (var conn = SQLiteConfig.GetConnection()) 
             {
-                conn.Open();
+                
                 var cmd = new SQLiteCommand("INSERT INTO mark (StudentId, ExamId, Score) VALUES (@sid, @eid, @score)", conn);
                 cmd.Parameters.AddWithValue("@sid", mark.StudentID);
                 cmd.Parameters.AddWithValue("@eid", mark.ExamId);
@@ -60,7 +60,7 @@ namespace UnicomTIC_MS.Controllers
         {
             using (var conn = SQLiteConfig.GetConnection()) 
             {
-                conn.Open();
+                
                 var cmd = new SQLiteCommand("UPDATE mark SET StudentId=@sid, ExamId=@eid, Score=@score WHERE MarkId=@id", conn);
                 cmd.Parameters.AddWithValue("@sid", mark.StudentID);
                 cmd.Parameters.AddWithValue("@eid", mark.ExamId);
@@ -73,7 +73,7 @@ namespace UnicomTIC_MS.Controllers
         {
             using (var conn = SQLiteConfig.GetConnection()) 
             {
-                conn.Open();
+                
                 var cmd = new SQLiteCommand("DELETE FROM mark WHERE MarkId=@id", conn);
                 cmd.Parameters.AddWithValue("@id", markId);
                 cmd.ExecuteNonQuery();

@@ -65,10 +65,10 @@ namespace UnicomTIC_MS.Controllers
             {
                 string query = @"
                 SELECT
-                    u.user_id, u.first_name || ' ' || u.last_name AS full_name,
+                    u.id, u.first_name || ' ' || u.last_name AS full_name,
                     u.username, u.email, u.phone, l.subjects
                 FROM users u
-                JOIN lecturers l ON u.id = l.user.id
+                JOIN lecturers l ON u.id = l.user_id
                 WHERE u.role = 'Lecturer';
                 ";
 
@@ -94,7 +94,7 @@ namespace UnicomTIC_MS.Controllers
                         password = @password,
                         username = @username,
                         role = @role,
-                        phone = @phone
+                        phone = @phone,
                         updated_at = CURRENT_TIMESTAMP
                     WHERE id = @userId;";
 

@@ -110,5 +110,10 @@ namespace UnicomTIC_MS.Views
             txtRoomType.Clear();
             txtRoomName.Tag = null;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

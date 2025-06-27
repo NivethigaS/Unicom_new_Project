@@ -62,7 +62,7 @@ namespace UnicomTIC_MS.Views
         {
             User user = new User
             {
-                
+
                 FirstName = txtfirstname.Text.Trim(),
                 LastName = txtlastname.Text.Trim(),
                 Gender = cmbogender.SelectedItem?.ToString(),
@@ -78,20 +78,28 @@ namespace UnicomTIC_MS.Views
             {
                 Subjects = txtsubjects.Text.Trim(),
             };
-            if (_userId == -1)
+            try
+            {
                 LecturerController.AddLecturer(user, lecturer);
-            else
-                LecturerController.UpdateLecturer(_userId, user, lecturer);
+                MessageBox.Show("Lecturer added successfully!");
+                this.DialogResult = DialogResult.OK;
+                this.Close();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: " + ex.Message);
 
-            MessageBox.Show("Lecturer Added Successfully!");
-            this.DialogResult = DialogResult.OK;
-            this.Close();
-
+            }
         }
 
         private void lblpassword_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
