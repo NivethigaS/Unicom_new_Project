@@ -111,6 +111,11 @@ namespace UnicomTIC_MS.Views
             txtExamName.Tag = null;
             cmbSubject.SelectedIndex = 0;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
 

@@ -140,5 +140,10 @@ namespace UnicomTIC_MS.Views
             txtScore.Clear();
             txtScore.Tag = null;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

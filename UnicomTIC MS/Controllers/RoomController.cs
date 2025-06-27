@@ -16,7 +16,7 @@ namespace UnicomTIC_MS.Controllers
             List<Room> list = new List<Room>();
             using (var conn = SQLiteConfig.GetConnection())
             {
-                conn.Open();
+                
                 string query = "SELECT * FROM room";
                 var cmd = new SQLiteCommand(query, conn);
                 var reader = cmd.ExecuteReader();
@@ -37,7 +37,7 @@ namespace UnicomTIC_MS.Controllers
         {
             using (var conn = SQLiteConfig.GetConnection())
             {
-                conn.Open();
+                
                 string query = "INSERT INTO room(RoomName, Roomtype) VALUES (@name, @type)";
                 using (var cmd = new SQLiteCommand(query, conn))
                 {
@@ -51,7 +51,7 @@ namespace UnicomTIC_MS.Controllers
         {
             using (var conn = SQLiteConfig.GetConnection())
             {
-                conn.Open();
+                
                 string query = "UPDATE room SET RoomName = @name, RoomType = @type WHERE RoomID = @id";
                 using (var cmd = new SQLiteCommand(query, conn))
                 {
@@ -66,7 +66,7 @@ namespace UnicomTIC_MS.Controllers
         {
             using (var conn = SQLiteConfig.GetConnection())
             {
-                conn.Open();
+                
                 string query = "DELETE from ROOM WHERE ROOMID =@id";
                 using (var cmd = new SQLiteCommand(query, conn))
                 {

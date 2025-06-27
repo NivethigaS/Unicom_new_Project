@@ -18,11 +18,11 @@ namespace UnicomTIC_MS.Controllers
 
             using (var conn = SQLiteConfig.GetConnection())
             {
-                conn.Open();
+                
                 string query = @"
                    SELECT s.subject_id, s.subject_name, c.course_id, c.course_name, c.duration
                      FROM course c
-                        LEFT JOIN subject s ON c.course_id = c.course_id";
+                        LEFT JOIN subject s ON c.course_id = s.course_id";
                 var cmd = new SQLiteCommand(query, conn);
                 var reader = cmd.ExecuteReader();
                 {
@@ -46,11 +46,11 @@ namespace UnicomTIC_MS.Controllers
         {
             using (var conn = SQLiteConfig.GetConnection()) 
             {
-                conn.Open();
-                var cmd = new SQLiteCommand("INSERT INTO subject (subject_name, course_id) VALUES (@name, @course_id)", conn);
+                
+                var cmd = new SQLiteCommand("INSERT INTO subject (subject_name, course_id) VALUES (@subject_name, @course_id)", conn);
                 {
-                    cmd.Parameters.AddWithValue("@name", subject.SubjectName);
-                    cmd.Parameters.AddWithValue("@courseId", subject.CourseID);
+                    cmd.Parameters.AddWithValue("@subject_name", subject.SubjectName);
+                    cmd.Parameters.AddWithValue("@course_id", subject.CourseID);
                     cmd.ExecuteNonQuery();
                 }
             }
@@ -60,8 +60,8 @@ namespace UnicomTIC_MS.Controllers
             List <dynamic> list = new List<dynamic>();
             using (var conn = SQLiteConfig.GetConnection()) 
             {
-                conn.Open();
-                string query = "SELECT SubjectID, SubjectName FROM subject";
+                
+                string query = "SELECT subject_id, subject_name FROM subject";
                 var cmd = new SQLiteCommand (query, conn);
                 var reader = cmd.ExecuteReader() ;
 
@@ -69,8 +69,8 @@ namespace UnicomTIC_MS.Controllers
                 {
                     list.Add(new
                     {
-                        SubjectID = Convert.ToInt32(reader["SubjectID"]),
-                        SubjectName = reader["SubjectName"].ToString()
+                        SubjectID = Convert.ToInt32(reader["Subject_id"]),
+                        SubjectName = reader["subject_name"].ToString()
                     });
                 }
             }

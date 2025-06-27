@@ -28,11 +28,9 @@ namespace UnicomTIC_MS.Views.Dashboardcontrol
 
         private void btnAddStudent_Click(object sender, EventArgs e)
         {
-            using (var form = new addstudentform()) 
-            {
-                if (form.ShowDialog() == DialogResult.OK)
-                    LoadStudents();
-            }
+           AddSubjectform studentForm = new AddSubjectform();
+            studentForm.ShowDialog();
+            LoadStudents();
         }
 
         private void btnUpdateStudent_Click(object sender, EventArgs e)

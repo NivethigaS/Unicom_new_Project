@@ -33,9 +33,9 @@ namespace UnicomTIC_MS.Views
             dgvSubjects.Rows.Clear();
             using (SQLiteConnection conn = SQLiteConfig.GetConnection())
             {
-                string query = @"SELECT s.SubjectId, s.SubjectName, c.CourseName, s.CourseId
+                string query = @"SELECT s.subject_id, s.subject_name, c.course_name, s.course_id
                     FROM subject s
-                    JOIN course c ON s.CourseId = c.CourseId";
+                    JOIN course c ON s.course_id = c.course_id";
 
                 using (SQLiteCommand cmd = new SQLiteCommand(query, conn))
                 using (SQLiteDataReader reader = cmd.ExecuteReader())
@@ -43,10 +43,10 @@ namespace UnicomTIC_MS.Views
                     while (reader.Read())
                     {
                         dgvSubjects.Rows.Add(
-                            reader["SubjectId"],
-                            reader["SubjectName"],
-                            reader["CourseName"],
-                            reader["CourseId"]
+                            reader["subject_id"],
+                            reader["subject_name"],
+                            reader["course_name"],
+                            reader["course_id"]
                         );
                     }
                 }
@@ -54,14 +54,14 @@ namespace UnicomTIC_MS.Views
         }
         private void btnsave_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrWhiteSpace(txtSubjectName.Text) || cmbCourse.SelectedValue == null)
+            if (string.IsNullOrWhiteSpace(lblSubjectName.Text) || cmbCourse.SelectedValue == null)
             {
                 MessageBox.Show("Please fill in all fields.");
                 return;
             }
             Subject subject = new Subject
             {
-                SubjectName = txtSubjectName.Text,
+                SubjectName = lblSubjectName.Text,
                 CourseID = Convert.ToInt32(cmbCourse.SelectedValue)
             };
             SubjectController.AddSubject(subject);
@@ -80,34 +80,34 @@ namespace UnicomTIC_MS.Views
             if (e.RowIndex >= 0) 
             {
                 DataGridViewRow row = dgvSubjects.Rows[e.RowIndex];
-                txtSubjectName.Text = row.Cells[1].Value.ToString();
+                lblSubjectName.Text = row.Cells[1].Value.ToString();
                 cmbCourse.SelectedValue = row.Cells[3].Value.ToString();
-                txtSubjectName.Tag = row.Cells[0].Value;
+                lblSubjectName.Tag = row.Cells[0].Value;
             }
         }
 
         private void btnUpdate_Click(object sender, EventArgs e)
         {
-            if (txtSubjectName.Tag == null) 
+            if (lblSubjectName.Tag == null) 
             {
                 MessageBox.Show("Please select a subject to update");
                 return;
             }
             Subject subject = new Subject
             {
-                SubjectName = txtSubjectName.Text,
-                SubjectID = Convert.ToInt32(txtSubjectName.Tag),
+                SubjectName = lblSubjectName.Text,
+                SubjectID = Convert.ToInt32(lblSubjectName.Tag),
                 CourseID = Convert.ToInt32(cmbCourse.SelectedValue)
             };
 
             using (var conn = SQLiteConfig.GetConnection()) 
             {
-                conn.Open();
-                string query = "UPDATE subject SET SubjectName = @name, CourseId = @courseId WHERE SubjectId = @id";
+         
+                string query = "UPDATE subject SET subject_name = @name, course_id = @course_id WHERE subject_id = @id";
                 using (var cmd = new SQLiteCommand(query, conn)) 
                 {
                     cmd.Parameters.AddWithValue("@name", subject.SubjectName);
-                    cmd.Parameters.AddWithValue("@courseId", subject.CourseID);
+                    cmd.Parameters.AddWithValue("@course_id", subject.CourseID);
                     cmd.Parameters.AddWithValue("@id", subject.SubjectID);
                     cmd.ExecuteNonQuery();
                 }
@@ -119,19 +119,19 @@ namespace UnicomTIC_MS.Views
 
         private void btnDelete_Click(object sender, EventArgs e)
         {
-            if (txtSubjectName.Tag == null) 
+            if (lblSubjectName.Tag == null) 
             {
                 MessageBox.Show("Please select a subject to delete");
                 return;
             }
-            int subjecteId = Convert.ToInt32(txtSubjectName.Tag);
+            int subjecteId = Convert.ToInt32(lblSubjectName.Tag);
             DialogResult result = MessageBox.Show("Are you sure you want to delete this subject?", "Confirm",MessageBoxButtons.YesNo);
             if (result == DialogResult.Yes) 
             {
                 using (var conn = SQLiteConfig.GetConnection()) 
                 {
-                    conn.Open();
-                    string query = "DELETE FROM subjects WHERE SubjectedId = @id";
+                    
+                    string query = "DELETE FROM subject WHERE subject_id = @id";
                     using(var cmd = new SQLiteCommand(query, conn)) 
                     {
                         cmd.Parameters.AddWithValue("@id", subjecteId);
@@ -146,9 +146,13 @@ namespace UnicomTIC_MS.Views
         private void ClearInputs() 
         {
             txtSubjectName.Text = "";
-            txtSubjectName.Tag = null;
+            lblSubjectName.Tag = null;
             cmbCourse.SelectedIndex = 0;
         }
 
+        private void btnclose_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

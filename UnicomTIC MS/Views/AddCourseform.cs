@@ -107,5 +107,10 @@ namespace UnicomTIC_MS.Views
             txtDuration.Clear();
             txtCourseName.Tag = null;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

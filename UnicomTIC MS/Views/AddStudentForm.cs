@@ -111,5 +111,10 @@ namespace UnicomTIC_MS.Views
         {
 
         }
+
+        private void btnx1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
